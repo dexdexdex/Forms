@@ -9,7 +9,7 @@ Enter New Student Information
 Display all students' information <br />
 <% if !@students.blank? %>
 	<% for item in @students %>
-		Firstname: <%= item.firstname %> Lastname: <%= item.lastname %> <br />
+		The Firstname: <%= item.firstname %> Lastname: <%= item.lastname %> <br />
 	<% end %>
 <%else %>
 
